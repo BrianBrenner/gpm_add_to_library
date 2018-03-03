@@ -3,7 +3,6 @@
 (function addToLibrary(){
     console.log('clicked');
     const menuButton = document.querySelector('[data-id=now-playing-menu]');
-    console.log('about to click');
     menuButton.click();
     const menu = document.querySelector('.song-menu');
     menu.setAttribute('aria-activedescendant', ':a');

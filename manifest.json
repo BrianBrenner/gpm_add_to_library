@@ -5,7 +5,7 @@
   
     "description": "Clicking the extension icon will add the song being played by google play to your library",
     "icons": {
-      "48": "google_play_icon.png"
+      "48": "icons/google_play_icon.png"
     },
   
     "background": {
@@ -13,11 +13,13 @@
      },
 
      "browser_action":{
-        "default_icon":"google_play_icon.png",
+        "default_icon":"icons/google_play_icon.png",
         "default_title": "Add to Library"
       },
       
       "permissions": [
-        "activeTab"
+        "<all_urls>",
+        "activeTab",
+        "tabs"
       ]
 }
