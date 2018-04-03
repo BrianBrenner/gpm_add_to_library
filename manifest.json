@@ -8,13 +8,11 @@
       "48": "icons/google_play_icon.png"
     },
   
-    "background": {
-        "scripts": ["background.js"]
-     },
-
      "browser_action":{
+        "browser_style": true,
         "default_icon":"icons/google_play_icon.png",
-        "default_title": "Add to Library"
+        "default_title": "Add to Library",
+        "default_popup": "popup/status.html"
       },
       
       "permissions": [
